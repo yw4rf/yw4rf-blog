@@ -11,12 +11,12 @@ export const siteConfig: SiteConfig = {
   subtitle: 'Cybersecurity Enthusiast',
   lang: 'en',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko'
   themeColor: {
-    hue: 305,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
-    fixed: false,     // Hide the theme color picker for visitors
+    hue: 215,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+    fixed: true,     // Hide the theme color picker for visitors
   },
   banner: {
     enable: true,
-    src: 'assets/images/ghost-in-the-shell-1.gif',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    src: 'assets/images/100769.gif',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
       enable: true,         // Display the credit text of the banner image
@@ -51,7 +51,7 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/ghost-in-the-shell.gif',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  avatar: 'assets/images/avatar.gif',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'Yw4rf',
   bio: 'Cybersecurity Enthusiast with Hands-on Penetration Testing Experience | CTF Player | Computer Networks Student',
   links: [
