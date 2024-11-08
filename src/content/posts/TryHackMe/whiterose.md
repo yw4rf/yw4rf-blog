@@ -5,7 +5,7 @@ description: 'Abordaremos la máquina Whiterose de la plataforma TryHackMe. Real
 image: '../../../assets/TryHackMe/whiterose/whiterose-tryhackme.png'
 tags: [WriteUp, TryHackMe]
 category: 'WriteUp'
-draft: true 
+draft: false 
 ---
 
 ## Introduction

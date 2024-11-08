@@ -5,7 +5,7 @@ description: 'Nos encontraremos con dos puertos abiertos 22/SSH y 80/HTTP. Obten
 image: '../../../assets/HTB/TwoMillion/tm-hackthebox.png'
 tags: [WriteUp, HackTheBox]
 category: 'WriteUp'
-draft: true 
+draft: false 
 ---
 
 

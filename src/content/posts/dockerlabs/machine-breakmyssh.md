@@ -5,7 +5,7 @@ description: 'En esta ocasión, abordaremos la máquina BreakMySSH la cual como 
 image: '../../../assets/DockerLabs/BreakMySSH/breakmyssh.jpeg'
 tags: [WriteUp, DockerLabs]
 category: 'WriteUp'
-draft: true 
+draft: false 
 ---
 
 

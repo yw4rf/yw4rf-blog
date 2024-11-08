@@ -5,7 +5,7 @@ description: 'La máquina Chemistry se encuentra actualmente activa en la plataf
 image: '../../../assets/HTB/Chemistry/chemistry-hackthebox.png'
 tags: [WriteUp, HackTheBox]
 category: 'WriteUp'
-draft: true 
+draft: false 
 ---
 
 

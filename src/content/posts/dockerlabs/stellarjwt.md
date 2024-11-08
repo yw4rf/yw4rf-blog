@@ -5,7 +5,7 @@ description: 'Nos encontramos ante una máquina vulnerable con los puertos 80/HT
 image: '../../../assets/DockerLabs/StellarJWT/stellarjwt.webp'
 tags: [WriteUp, DockerLabs]
 category: 'WriteUp'
-draft: true
+draft: false
 ---
 
 ## Introduction

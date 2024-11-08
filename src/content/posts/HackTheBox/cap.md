@@ -5,7 +5,7 @@ description: 'Realizaremos la máquina Cap de la plataforma HackTheBox. Nos enco
 image: '../../../assets/HTB/Cap/cap.png'
 tags: [WriteUp, HackTheBox]
 category: 'WriteUp'
-draft: true 
+draft: false 
 ---
 
 
