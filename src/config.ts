@@ -16,11 +16,11 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,
-    src: 'assets/images/background.jpg',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    src: 'assets/images/ghost-in-the-shell-1.gif',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
       enable: true,         // Display the credit text of the banner image
-      text: 'Anime: Ghost In The Shell (1997)',              // Credit text to be displayed
+      text: 'Tobias Gabriel F. (AKA Yw4rf)',              // Credit text to be displayed
       url: ''                // (Optional) URL link to the original artwork or artist's page
     }
   },
@@ -44,14 +44,14 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.About,
     {
       name: 'Contact',
-      url: 'mailto:tobifgabriel@gmail.com',
+      url: 'https://t.me/yw4rf',
       external: true,
     },
   ],
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/avatar.jpg',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  avatar: 'assets/images/ghost-in-the-shell.gif',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'Yw4rf',
   bio: 'Cybersecurity Enthusiast with Hands-on Penetration Testing Experience | CTF Player | Computer Networks Student',
   links: [
