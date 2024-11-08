@@ -3,7 +3,7 @@ title: Injection - DockerLabs
 published: 2024-09-18
 description: 'En este WriteUp, abordaremos la máquina Injection de la plataforma DockerLabs. Realizaremos Escaneo de Puertos, Inyección SQL, Acceso a SSH y Escalada de Privilegios.'
 image: '../../../assets/DockerLabs/Injection/injection.jpeg'
-tags: [DockerLabs, Machine]
+tags: [WriteUp, DockerLabs]
 category: 'WriteUp'
 draft: false 
 ---
@@ -12,7 +12,6 @@ draft: false
 
 DockerLabs es una plataforma gratuita diseñada para la práctica de hacking ético. En esta ocasión, abordaremos la máquina Injection. Realizaremos Escaneo de Puertos, Inyección SQL, Acceso a SSH y Escalada de Privilegios.
 
-![Injection DockerLabs Yw4rf](https://old-blog-yw4rf.vercel.app/_astro/injection-dockerlabs.BoCv4q12_ZUhEMe.webp)
 ~~~
 Platform: DockerLabs
 Level: Very Easy

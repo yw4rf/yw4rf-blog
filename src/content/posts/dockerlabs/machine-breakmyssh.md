@@ -14,7 +14,6 @@ draft: true
 
 DockerLabs es una plataforma gratuita diseñada para la práctica de hacking ético. En esta ocasión, abordaremos la máquina BreakMySSH la cual como su nombre indica deberemos acceder al servicio SSH que se encuentra en el puerto 22. Haremos uso de la vulnerabilidad de OpenSSH 7.7 username enumeration CVE 2018-15473 para hacer uso de credenciales debiles y luego realizar un ataque de fuerza bruta.
 
-![Yw4rf DockerLabs](../../../assets/DockerLabs/BreakMySSH/dockerlabs-breakmyssh.png)
 ~~~
 Platform: DockerLabs
 Level: Very Easy

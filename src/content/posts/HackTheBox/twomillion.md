@@ -2,18 +2,16 @@
 title: TwoMillion - HackTheBox
 published: 2024-10-20
 description: 'Nos encontraremos con dos puertos abiertos 22/SSH y 80/HTTP. Obtendremos un codigo de invitación descifrando código encriptado, enumeraremos una API para poder acceder como administrador, inyectaremos una reverse shell, encontraremos una base de datos lo que nos llevara a encontrar usuario y contraseña en un archivo .env y debido a que el Kernel Linux está desactualizado se puede utilizar CVE-2023-0386 para escalar privilegios.'
-image: '../../../assets/HTB/TwoMillion/twomillion.png'
+image: '../../../assets/HTB/TwoMillion/tm-hackthebox.png'
 tags: [WriteUp, HackTheBox]
 category: 'WriteUp'
-draft: false 
+draft: true 
 ---
 
 
 ## Introduction
 
 TwoMillion es una máquina de la plataforma **[HackTheBox](https://app.hackthebox.com/profile/2035837)**. En esta ocasión nos encontraremos con dos puertos abiertos 22/SSH y 80/HTTP. Obtendremos un codigo de invitación descifrando código encriptado, enumeraremos una API para poder acceder como administrador, inyectaremos una reverse shell, encontraremos una base de datos lo que nos llevara a encontrar usuario y contraseña en un archivo .env y debido a que el Kernel Linux está desactualizado se puede utilizar CVE-2023-0386 para escalar privilegios.
-
-![TwoMillion yw4rf](../../../assets/HTB/TwoMillion/tm-hackthebox.png)
 
 ~~~
 Platform: HackTheBox

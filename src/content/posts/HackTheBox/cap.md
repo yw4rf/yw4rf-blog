@@ -5,15 +5,13 @@ description: 'Realizaremos la máquina Cap de la plataforma HackTheBox. Nos enco
 image: '../../../assets/HTB/Cap/cap.png'
 tags: [WriteUp, HackTheBox]
 category: 'WriteUp'
-draft: false 
+draft: true 
 ---
 
 
 ## Introduction
 
 **[HackTheBox](https://app.hackthebox.com/profile/2035837)** es una plataforma diseñada para la práctica de hacking ético. En esta ocasión, abordaremos la máquina Cap. Nos encontraremos con varios puertos: 80/HTTP, 21/FTP y 22/SSH. Utilizaremos Tshark para analizar paquetes de archivos .PCAP, Fuzzing web para encontrar subdirectorios y escalaremos privilegios mediante la capabilitie cap_setuid.
-
-![Cap yw4rf](../../../assets/HTB/Cap/cap-hackthebox.png)
 
 ~~~
 Platform: HackTheBox

@@ -3,7 +3,7 @@ title: Redeemer - Hack The Box
 published: 2024-09-05
 description: 'En este write-up, utilizamos Nmap para escanear puertos e identificar servicios abiertos, con enfoque en Redis en el puerto 6379. Procederemos a enumerar el servicio Redis y extraer la flag.'
 image: 'https://old-blog-yw4rf.vercel.app/_astro/redeemer-pwnd.Dti0IAbJ_ZxHvqu.webp'
-tags: [HackTheBox, Machine]
+tags: [WriteUp, HackTheBox]
 category: 'WriteUp'
 draft: false 
 ---
@@ -11,11 +11,11 @@ draft: false
 ## Introducción
 
 En este write-up, utilizamos Nmap para escanear puertos e identificar servicios abiertos, con un enfoque en Redis en el puerto 6379. Procederemos a enumerar el servicio Redis y extraer la flag.
+
 ```
 Platform: Hack The Box
 Level: Very Easy 
 ```
-![Redeemer machine complete yw4rf](https://old-blog-yw4rf.vercel.app/_astro/redeemer-pwnd.Dti0IAbJ_ZxHvqu.webp)
 
 ## Enumeración
 

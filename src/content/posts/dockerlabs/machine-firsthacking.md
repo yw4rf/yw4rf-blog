@@ -3,7 +3,7 @@ title: FirstHacking - DockerLabs
 published: 2024-09-16
 description: 'En este WriteUp, abordaremos la máquina FirstHacking de la plataforma DockerLabs. Aprenderemos a explotar la vulnerabilidad en la versión 2.3.4 de vsftpd, un servicio FTP que opera en el puerto 21.'
 image: '../../../assets/DockerLabs/FirstHacking/firsthacking.jpeg'
-tags: [DockerLabs, Machine]
+tags: [WriteUp, DockerLabs]
 category: 'WriteUp'
 draft: false 
 ---
@@ -12,7 +12,6 @@ draft: false
 
 DockerLabs es una plataforma gratuita diseñada para la práctica de hacking ético. En esta ocasión, abordaremos la máquina FirstHacking, en la cual aprenderemos a explotar la vulnerabilidad en la versión 2.3.4 de vsftpd, un servicio FTP que opera en el puerto 21.
 
-![Descarga](https://old-blog-yw4rf.vercel.app/_astro/firsthacking-1.Cw3rWVWN_Lri1B.webp)
 ```
 Platform: DockerLabs
 Level: Very Easy

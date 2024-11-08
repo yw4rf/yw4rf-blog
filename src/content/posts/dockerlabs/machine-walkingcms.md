@@ -3,7 +3,7 @@ title: WalkingCMS - DockerLabs
 published: 2024-10-01
 description: 'Abordaremos la máquina WalkingCMS. Realizaremos escaneo de puertos, comprometeremos una página Wordpress con WPScan, haremos uso de Hydra para un ataque de fuerza bruta, usaremos una Reverse Shell y escalaremos privilegios.'
 image: '../../../assets/DockerLabs/WalkingCMS/walkingcms.jpeg'
-tags: [DockerLabs, WriteUp]
+tags: [WriteUp, DockerLabs]
 category: 'WriteUp'
 draft: false 
 ---
@@ -12,7 +12,6 @@ draft: false
 
 DockerLabs es una plataforma gratuita diseñada para la práctica de hacking ético. En esta ocasión, abordaremos la máquina WalkingCMS. Realizaremos escaneo de puertos, comprometeremos el una página Wordpress, haremos uso de Hydra para ataque de fuerza bruta, usaremos una Reverse Shell y escalaremos privilegios.
 
-![WalkingCMS yw4rf](../../../assets/DockerLabs/WalkingCMS/walkingcms-dockerlabs.png)
 ~~~
 Platform: DockerLabs
 Level: Easy

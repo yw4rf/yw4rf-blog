@@ -12,8 +12,6 @@ draft: false
 
 Esta vez, abordaremos la máquina TickTackRoot de la plataforma **[TheHackersLabs](https://thehackerslabs.com)**, una plataforma gratuita diseñada para la práctica de hacking ético. Nos encontraremos con tres puertos abiertos, 21/FTP**, 22/SSH y 80/HTTP. Explotaremos la vulnerabilidad FTP Anonymous login y realizaremos fuerza bruta con Hydra al servicio SSH, por último, escalaremos privilegios aprovechando el binario timeout_suid.
 
-![Yw4rf TheHackersLabs](../../../assets/TheHackersLabs/TickTackRoot/thehackerslabs-ticktackroot.png)
-
 ~~~
 Platform: TheHackersLabs
 Level: Principiante
@@ -136,7 +134,9 @@ Ejecutamos el binario **SUID** y como vemos, somos **root**
 
 Una vez hemos escalado privilegios tenemos control total del sistema y por lo tanto hemos finalizado la máquina. Restaria encontrar las flags.
 
-## Resumen
+## Conclusion
+
+![Yw4rf TheHackersLabs](../../../assets/TheHackersLabs/TickTackRoot/thehackerslabs-ticktackroot.png)
 
 Se inicia el análisis utilizando el comando **Ping** para verificar la accesibilidad de la máquina, lo que indica que es un sistema **Linux** por el **TTL** de 64. Luego, se realiza un escaneo de puertos con **Nmap**, donde se identifican los puertos abiertos: **22 (SSH)**, **80 (HTTP)** y **21 (FTP)**. El servidor FTP permite el acceso anónimo, revelando archivos y posibles nombres de usuario: **Robin**, **Rafael** y **Monica**. Se intenta un ataque de **fuerza bruta** con **Hydra** para obtener la contraseña de **Robin**, encontrando que la contraseña es **babyblue**. Después de acceder por **SSH**, se verifica que el usuario puede ejecutar un binario **SUID** sin contraseña, lo que permite escalar privilegios a **root**. Finalmente, se obtiene control total del sistema, completando la explotación de la máquina.
 

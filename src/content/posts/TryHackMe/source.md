@@ -12,8 +12,6 @@ draft: false
 
 **[TryHackMe](https://tryhackme.com/p/Yw4rf)** es una plataforma diseñada para la práctica de hacking ético. En esta ocasión, abordaremos la máquina Source. Nos encontraremos con el servicio Webmin 1.890 y haremos uso de un Backdoor RCE exploit CVE-2019-15107 para acceder al servicio con privilegios elevados.
 
-![Source yw4rf](../../../assets/TryHackMe/source/source-tryhackme.png)
-
 ```
 Platform: TryHackMe
 OS: Linux
