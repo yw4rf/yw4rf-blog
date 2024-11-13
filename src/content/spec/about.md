@@ -1,6 +1,11 @@
+
 ## About me
 
-I’m Tobias, a 19yo cybersecurity enthusiast based at Argentina. I’ve always been passionate about technology, which led me to pursue a Technical Degree in <span style="color: #404272;">Computer Networks</span> at UNO University. I’m excited to continue learning and growing in this field, while contributing to the <span style="color: #404272;">cybersecurity</span> community. I’m currently working towards <span style="color: #404272;">ISC2 CC</span> and <span style="color: #404272;">CISCO EH</span> certifications.
+I’m Tobias, a 19-year-old <span style="color: #04C4D9;">Cybersecurity Enthusiast</span> based in Buenos Aires, Argentina. My journey into technology began at a young age, when I took apart my first computer out of pure curiosity. This sparked a lifelong passion that led me to pursue a Technical Degree in <span style="color: #04C4D9;">Computer Networks</span> at UNO University. I’m deeply passionate about cybersecurity and am currently focused on developing my skills in pentesting. Through self-study, hands-on experience, and working on vulnerable machines, I’ve gained practical knowledge in areas such as network enumeration, exploiting vulnerabilities, and post-exploitation techniques.
+
+I have completed several practical challenges with vulnerable machines. These experiences have allowed me to apply theoretical knowledge in real-world scenarios, enhancing my understanding of common attack vectors and exploitation methods. I’m eager to continue this journey and am currently working towards my <span style="color: #04C4D9;">ISC2 CC</span> and <span style="color: #04C4D9;">CISCO EH</span> certifications.
+
+In the future, I aim to specialize in red teaming, as I’m passionate about offensive security and finding creative ways to improve organizational defenses. I’m excited to contribute to the cybersecurity industry, grow my knowledge, and tackle real-world security challenges.
 
 ## CTF
 

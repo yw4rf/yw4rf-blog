@@ -2,7 +2,7 @@
 title: Network Enumeration with Nmap
 published: 2024-10-08
 description: 'La enumeración de redes es un paso crítico en las pruebas de penetración y la seguridad de la red. Una de las herramientas más potentes y versátiles para esta tarea es Nmap (Network Mapper). En este artículo, exploraremos cómo usar Nmap para realizar una enumeración efectiva de redes, descubriendo hosts, servicios y vulnerabilidades.'
-image: '../../../assets/Ethical-Hacking/nmapbanner.jpeg'
+image: '../../../assets/Ethical-Hacking/NetworkEnumeration/nmapbanner.jpeg'
 tags: [Pentesting, EthicalHacking]
 category: 'Cybersecurity'
 draft: false 
@@ -32,13 +32,13 @@ sudo apt install nmap
 
 Haremos uso de **ScanMe Nmap** un sitio web creado y mantenido por el creador de Nmap con el objetivo de escaneos tal como su nombre lo indica. Tenemos la autorización de realizar escaneos y pruebas en la página.
 
-![Nmap Yw4rf](../../../assets/Ethical-Hacking/scanmenmap.png)
+![Nmap Yw4rf](../../../assets/Ethical-Hacking/NetworkEnumeration/scanmenmap.png)
 
 ### Descubriendo Hosts
 
 El primer paso en la enumeración de redes es identificar qué hosts están activos. Para ello, usaremos el siguiente comando `nmap -sn scanme.nmap.org` 
 
-![Nmap Yw4rf](../../../assets/Ethical-Hacking/networkEnum1.png)
+![Nmap Yw4rf](../../../assets/Ethical-Hacking/NetworkEnumeration/networkEnum1.png)
 
 Este comando envía paquetes ICMP (ping) y otras solicitudes para determinar si el host responde. Si el host está activo, Nmap mostrará información básica como su dirección IP y, a veces, el nombre del host.
 
@@ -46,7 +46,7 @@ Este comando envía paquetes ICMP (ping) y otras solicitudes para determinar si 
 
 Una vez identificados los hosts activos, el siguiente paso es escanear los puertos abiertos. Se realiza con el siguiente comando `sudo nmap -sS scanme.nmap.org` se utiliza "sudo" ya que requiere privilegios elevados para enviar paquetes RAW.
 
-![Nmap Yw4rf](../../../assets/Ethical-Hacking/networkEnum2.png)
+![Nmap Yw4rf](../../../assets/Ethical-Hacking/NetworkEnumeration/networkEnum2.png)
 
 la flag `-sS` realiza un escaneo SYN, que es menos detectable y más rápido que un escaneo TCP completo. Como vemos, nos indica los **puertos** abiertos, el **estado** de los mismos y que **servicios** ejecutan.
 
@@ -60,7 +60,7 @@ Podriamos acompañarlo de `--open` que le indica que solo muestre los que están
 
 Para obtener más información sobre los servicios que se están ejecutando en los puertos abiertos, podemos usar  `nmap -sV 192.168.1.10`
 
-![Nmap Yw4rf](../../../assets/Ethical-Hacking/networkEnum3.png)
+![Nmap Yw4rf](../../../assets/Ethical-Hacking/NetworkEnumeration/networkEnum3.png)
 
 La flag `-sV` permite que Nmap intente identificar las versiones de los servicios.
 
@@ -68,7 +68,7 @@ La flag `-sV` permite que Nmap intente identificar las versiones de los servicio
 
 Nmap puede ayudar a identificar el sistema operativo de los hosts en la red con el uso de la flag `-O` 
 
-![Nmap Yw4rf](../../../assets/Ethical-Hacking/networkEnum4.png)
+![Nmap Yw4rf](../../../assets/Ethical-Hacking/NetworkEnumeration/networkEnum4.png)
 
 ### Detección de Vulnerabilidades
 
@@ -76,7 +76,7 @@ En este caso, usare una máquina CTF llamada **[FirstHacking](https://yw4rf.verc
 
 Usaremos `--script=vuln` para usar el script de detección de vulnerabilidades
 
-![Nmap Yw4rf](../../../assets/Ethical-Hacking/networkEnum5.png)
+![Nmap Yw4rf](../../../assets/Ethical-Hacking/NetworkEnumeration/networkEnum5.png)
 
 Como vemos, detecto que la máquina es vulnerable **vsFTPd version 2.3.4 backdoor** y nos indica el **CVE: CVE-2011-2523**
 
