@@ -1,7 +1,7 @@
 ---
 title: OWASP Top 10
 published: 2024-11-18
-description: ''
+description: 'OWASP (Open Web Application Security Project) es una organización sin fines de lucro dedicada a mejorar la seguridad del software. Su misión es proporcionar recursos gratuitos y accesibles que ayuden a las organizaciones a desarrollar y mantener aplicaciones web seguras. OWASP se enfoca en la educación, investigación y colaboración en torno a las mejores prácticas de seguridad en el desarrollo de aplicaciones.'
 image: '../../../assets/Ethical-Hacking/OWASPtop10/tryhackme-owasptop10.png'
 tags: [Pentesting, EthicalHacking]
 category: 'Cybersecurity'
