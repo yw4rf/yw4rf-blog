@@ -21,7 +21,7 @@ OS: Linux
 ## Reconnaissance
 
 ~~~
-Target: 
+Target: 10.129.34.226
 ~~~
 
 Inicialmente, usamos el comando **ping**. Este utiliza el **ICMP (Protocolo de Control de Mensajes de Internet)**. **Ping** envía un mensaje de “echo request” a una **dirección IP** y espera recibir un mensaje de “echo response” en respuesta. Este proceso nos permite verificar si una máquina en la red es accesible y medir la latencia. Podemos inferir que es una máquina **Linux** debido a que el **ttl = 64**
