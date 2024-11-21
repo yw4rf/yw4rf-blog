@@ -24,7 +24,7 @@ OS: Linux
 Target IP: 10.129.169.55
 ~~~
 
-Comenzamos con el comando **ping**, que utiliza el **ICMP (Protocolo de Control de Mensajes de Internet)**. Este comando envía un mensaje de "echo request" a una dirección IP y espera recibir un mensaje de "echo response". Este proceso permite verificar si una máquina en la red es accesible y medir la latencia. Además, se puede inferir que es una máquina **Linux** debido al **TTL = 64**.
+Comenzamos con el comando **ping**, que utiliza el **ICMP (Protocolo de Control de Mensajes de Internet)**. Este comando envía un mensaje de "echo request" a una dirección IP y espera recibir un mensaje de "echo response". Este proceso permite verificar si una máquina en la red es accesible y medir la latencia. Además, se puede inferir que es una máquina **Linux** debido al **TTL = 63**.
 
 ![Crocodile yw4rf](../../../assets/HTB/Crocodile/crocodile-1.png)
 
@@ -50,7 +50,7 @@ El puerto 80 ejecuta un servidor web `Apache httpd 2.4.41 ((Ubuntu))`. Usamos la
 
 ![Crocodile yw4rf](../../../assets/HTB/Crocodile/crocodile-4.png)
 
-Accedemos al sitio web en `http://10.129.169.55/` pero no encontramos nada relevante. Decidimos conectarnos al servidor FTP aprovechando la vulnerabilidad **Anonymous FTP login**:
+Accedemos al sitio web en `http://10.129.169.55/` 
 
 ![Crocodile yw4rf](../../../assets/HTB/Crocodile/crocodile-5.png)
 
