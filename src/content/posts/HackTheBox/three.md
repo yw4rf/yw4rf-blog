@@ -1,7 +1,7 @@
 ---
 title: Three - HackTheBox
 published: 2024-11-20
-description: 'En este writeup, se explora una máquina de Hack The Box que expone varios servicios vulnerables. Se realizaron técnicas de **reconocimiento** con **Nmap** y herramientas como **WhatWeb** y **Gobuster**, identificando un bucket **AWS S3** accesible. Se explotó esta vulnerabilidad subiendo una **webshell** para obtener acceso al servidor mediante una **reverse shell** y, finalmente, obtener la flag.'
+description: 'En este writeup, se explora una máquina de Hack The Box que expone varios servicios vulnerables. Se realizaron técnicas de reconocimiento con Nmap y herramientas como WhatWeb y Gobuster, identificando un bucket AWS S3 accesible. Se explotó esta vulnerabilidad subiendo una webshell para obtener acceso al servidor mediante una reverse shell y, finalmente, obtener la flag.'
 image: '../../../assets/HTB/Three/three-hackthebox.png'
 tags: [WriteUp, HackTheBox]
 category: 'WriteUp'
