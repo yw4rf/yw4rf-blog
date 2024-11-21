@@ -10,7 +10,7 @@ draft: false
 
 ## Introduction
 
-En este writeup, exploramos una máquina de Hack The Box. Comenzamos con un **reconocimiento básico** utilizando **ping** e **identificación de puertos** con **Nmap**, lo que nos permitió descubrir los servicios SSH en el puerto 22 y HTTP en el puerto 80. Con herramientas como **WhatWeb** y **Gobuster**, realizamos una enumeración de subdominios, lo que reveló la presencia de un **bucket S3** en el subdominio `s3.thetoppers.htb`.
+En este writeup, exploramos una máquina de **[HackTheBox](https://app.hackthebox.com/)**. Comenzamos con un **reconocimiento básico** utilizando **ping** e **identificación de puertos** con **Nmap**, lo que nos permitió descubrir los servicios SSH en el puerto 22 y HTTP en el puerto 80. Con herramientas como **WhatWeb** y **Gobuster**, realizamos una enumeración de subdominios, lo que reveló la presencia de un **bucket S3** en el subdominio `s3.thetoppers.htb`.
 
 Una vez identificado el servicio de **AWS S3**, utilizamos **AWS CLI** para listar y explorar el contenido del bucket. Tras verificar que el servidor web Apache en el puerto 80 usaba este bucket como almacenamiento, aprovechamos la posibilidad de subir una **webshell** en formato PHP al bucket S3. Esto nos permitió ejecutar comandos a través de la webshell y obtener acceso al servidor mediante una **reverse shell** utilizando **Netcat**.
 
