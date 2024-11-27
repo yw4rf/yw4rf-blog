@@ -1,7 +1,7 @@
 ---
 title: Alert - HackTheBox
 published: 2024-11-27
-description: 'La máquina Chemistry se encuentra actualmente activa en la plataforma de HackTheBox. De acuerdo con las políticas de HackTheBox, no puedo compartir el contenido en este momento, ya que podría afectar la experiencia de quienes intentan resolver una máquina activa. Por lo tanto, el contenido permanecerá oculto hasta que la máquina esté retirada.'
+description: 'La máquina Alert se encuentra actualmente activa en la plataforma de HackTheBox. De acuerdo con las políticas de HackTheBox, no puedo compartir el contenido en este momento, ya que podría afectar la experiencia de quienes intentan resolver una máquina activa. Por lo tanto, el contenido permanecerá oculto hasta que la máquina esté retirada.'
 image: '../../../assets/HTB/Alert/alert-hackthebox.png'
 tags: [WriteUp, HackTheBox]
 category: 'WriteUp'
