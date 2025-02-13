@@ -1,26 +1,25 @@
 ---
-title: Noxious - HackTheBlue
+title: Noxious - HackTheBox
 published: 2025-01-26
 description: 'Se analizó el tráfico de red utilizando la herramienta Wireshark, identificando una técnica de robo de credenciales mediante el abuso del protocolo LLMNR en Windows. Se observó cómo la víctima cometió un error tipográfico al intentar acceder a un recurso compartido en la red, lo que permitió que el atacante, utilizando la herramienta Responder, interceptara hashes y se hiciera pasar por un dispositivo legítimo dentro de la red interna. Finalmente, se empleó Hashcat para descifrar un hash NTLMv2, aprovechando la información recopilada del tráfico SMB'
 image: '../../../assets/HTB/Noxious/noxiuos-hackthebox.png'
-tags: [WriteUp, HackTheBox, BlueTeam, Sherlocks]
+tags: [WriteUp, HackTheBox, BlueTeam, Sherlocks, SOC, WireShark, Network Analysis, Threat Hunting]
 category: 'WriteUp'
 draft: false 
 ---
 
 En este desafío de Sherlock, Se analizó el tráfico de red utilizando la herramienta Wireshark, identificando una técnica de robo de credenciales mediante el abuso del protocolo LLMNR en Windows. Se observó cómo la víctima cometió un error tipográfico al intentar acceder a un recurso compartido en la red, lo que permitió que el atacante, utilizando la herramienta Responder, interceptara hashes y se hiciera pasar por un dispositivo legítimo dentro de la red interna. Finalmente, se empleó Hashcat para descifrar un hash NTLMv2, aprovechando la información recopilada del tráfico SMB.
 
-![Noxious yw4rf](../../../assets/HTB/Noxious/noxiuos-hackthebox.png)
-
 ~~~
 Platform: HackTheBox
 Level: Very Easy
 OS: Windows
+Type: SOC, Threat Hunting
 ~~~
 
 ### Sherlock Scenario
 
-> El dispositivo IDS nos alertó sobre la posible presencia de un dispositivo no autorizado en la red interna de Active Directory. El Sistema de Detección de Intrusos también indicó señales de tráfico LLMNR, lo cual es inusual. Se sospecha que ocurrió un ataque de envenenamiento de LLMNR. El tráfico LLMNR estaba dirigido hacia Forela-WKstn002, que tiene la dirección IP 172.17.79.136. Se te proporciona una captura de paquetes limitada correspondiente al momento del incidente, como nuestro experto en Forensia de Redes. Dado que esto ocurrió en la VLAN de Active Directory, se sugiere realizar Threat Hunting en la red teniendo en cuenta el vector de ataque de Active Directory, enfocándose específicamente en el envenenamiento de LLMNR.
+> El dispositivo IDS nos alertó sobre la posible presencia de un dispositivo no autorizado en la red interna de Active Directory. El Sistema de Detección de Intrusos también indicó señales de tráfico LLMNR, lo cual es inusual. Se sospecha que ocurrió un ataque de envenenamiento de LLMNR. El tráfico LLMNR estaba dirigido hacia Forela-WKstn002, que tiene la dirección IP 172.17.79.136. Se te proporciona una captura de paquetes limitada correspondiente al momento del incidente, como nuestro experto en Forense de Redes. Dado que esto ocurrió en la VLAN de Active Directory, se sugiere realizar Threat Hunting en la red teniendo en cuenta el vector de ataque de Active Directory, enfocándose específicamente en el envenenamiento de LLMNR.
 
 ### Key Information
 
