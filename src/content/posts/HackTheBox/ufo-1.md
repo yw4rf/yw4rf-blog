@@ -1,14 +1,14 @@
 ---
 title: UFO-1 - HackTheBox
 published: 2025-01-30
-description: ''
+description: 'En este Sherlock, la tarea consistió en investigar al grupo Sandworm Team (también conocido como APT44 o BlackEnergy Group), una amenaza avanzada persistente conocida por sus ataques a infraestructuras críticas. Utilizando el marco MITRE ATT&CK, se analizaron las tácticas, técnicas y procedimientos (TTPs) asociados a este grupo, respondiendo preguntas clave sobre sus campañas más relevantes, las herramientas utilizadas y sus métodos de ataque.'
 image: '../../../assets/HTB/UFO-1/ufo-hackthebox.png'
-tags: [WriteUp, HackTheBox, BlueTeam, Sherlocks, Threat Intelligence, MITRE ATT&CK, APT, Reasearch]
+tags: [WriteUp, HackTheBox, BlueTeam, Sherlocks, Threat Intelligence, Research]
 category: 'WriteUp'
 draft: false 
 ---
 
-En este Sherlock la tarea será investigar al **grupo Sandworm Team** (también conocido como **APT44** o **BlackEnergy Group**), una amenaza avanzada persistente conocida por sus ataques a infraestructuras críticas. Utilizando el marco **MITRE ATT&CK**, deberás analizar tácticas, técnicas y procedimientos (TTPs) asociados a este grupo, respondiendo preguntas clave sobre sus campañas más relevantes, herramientas utilizadas y métodos de ataque. Esta experiencia te ayudará a fortalecer tus habilidades en ciberinteligencia, análisis forense y defensa contra amenazas dirigidas a entornos industriales.
+En este Sherlock, la tarea consistió en investigar al grupo Sandworm Team (también conocido como APT44 o BlackEnergy Group), una amenaza avanzada persistente conocida por sus ataques a infraestructuras críticas. Utilizando el marco MITRE ATT&CK, se analizaron las tácticas, técnicas y procedimientos (TTPs) asociados a este grupo, respondiendo preguntas clave sobre sus campañas más relevantes, las herramientas utilizadas y sus métodos de ataque. Esta experiencia permitió fortalecer habilidades en ciberinteligencia, análisis forense y defensa contra amenazas dirigidas a entornos industriales.
 
 ~~~
 Platform: HackTheBox
