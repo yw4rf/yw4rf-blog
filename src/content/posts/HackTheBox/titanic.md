@@ -17,3 +17,7 @@ La máquina Titanic se encuentra actualmente activa en la plataforma de HackTheB
 **[Official Achievment HackTheBox](https://www.hackthebox.com/achievement/machine/2035837/648)**
 
 ![Alert yw4rf](../../../assets/HTB/Titanic/titanic-pwnd.png)
+
+[^1]: ```
+    COMENTARIO DE MARKDOWN
+    ```

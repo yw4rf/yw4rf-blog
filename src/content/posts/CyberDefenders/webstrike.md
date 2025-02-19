@@ -8,7 +8,7 @@ category: 'WriteUp'
 draft: false 
 ---
 
-En este laboratorio, nos adentramos en la investigación forense de una actividad sospechosa detectada en un servidor web de la empresa, capturada y proporcionada en forma de un archivo PCAP para su análisis. El escenario resalta un incidente de seguridad crítico que involucra la carga no autorizada de un web shell malicioso, la ejecución de comandos subsecuentes e intentos de exfiltrar datos sensibles. A través de este análisis, desvelaremos los métodos empleados por el atacante, las vulnerabilidades explotadas y las técnicas utilizadas para mantener el acceso no autorizado al servidor.
+En este laboratorio de **[CyberDefenders](https://cyberdefenders.org/blueteam-ctf-challenges/webstrike/)**, nos adentramos en la investigación forense de una actividad sospechosa detectada en un servidor web de la empresa, capturada y proporcionada en forma de un archivo PCAP para su análisis. El escenario resalta un incidente de seguridad crítico que involucra la carga no autorizada de un web shell malicioso, la ejecución de comandos subsecuentes e intentos de exfiltrar datos sensibles. A través de este análisis, desvelaremos los métodos empleados por el atacante, las vulnerabilidades explotadas y las técnicas utilizadas para mantener el acceso no autorizado al servidor.
 
 ~~~
 Platform: CyberDefenders
