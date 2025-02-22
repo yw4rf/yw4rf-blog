@@ -3,7 +3,7 @@ title: WebStrike - CyberDefenders
 published: 2025-02-16
 description: 'En este laboratorio, nos adentramos en la investigación forense de una actividad sospechosa detectada en un servidor web de la empresa, capturada y proporcionada en forma de un archivo PCAP para su análisis. El escenario resalta un incidente de seguridad crítico que involucra la carga no autorizada de un web shell malicioso, la ejecución de comandos subsecuentes e intentos de exfiltrar datos sensibles. A través de este análisis, desvelaremos los métodos empleados por el atacante, las vulnerabilidades explotadas y las técnicas utilizadas para mantener el acceso no autorizado al servidor.'
 image: '../../../assets/CyberDefenders/WebStrike/webstrike-banner.webp'
-tags: [CyberDefenders, BlueTeam, SOC]
+tags: [CyberDefenders, BlueTeam, SOC, Network Forensics]
 category: 'WriteUp'
 draft: false 
 ---
