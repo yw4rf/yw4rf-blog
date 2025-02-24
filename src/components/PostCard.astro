@@ -40,6 +40,17 @@ const hasCover = image !== undefined && image !== null && image !== "";
 const coverWidth = "45%";
 
 const { remarkPluginFrontmatter } = await entry.render();
+
+// Función de truncamiento
+function truncateString(str, maxLength) {
+  if (str.length > maxLength) {
+    return str.substring(0, maxLength) + "...";
+  }
+  return str;
+}
+
+const maxDescriptionLength = 200; // Define la longitud máxima deseada
+const truncatedDescription = truncateString(description, maxDescriptionLength);
 ---
 
 <div
@@ -84,7 +95,7 @@ const { remarkPluginFrontmatter } = await entry.render();
 
     <!-- description -->
     <div class="transition text-75 mb-3.5">
-      {description}
+      {truncatedDescription}
     </div>
 
     <!-- word count and read time  -->
