@@ -1,8 +1,8 @@
 ---
 title: Noxious - HackTheBox
 published: 2025-01-26
-description: 'Se analizó el tráfico de red utilizando la herramienta Wireshark, identificando una técnica de robo de credenciales mediante el abuso del protocolo LLMNR en Windows. Se observó cómo la víctima cometió un error tipográfico al intentar acceder a un recurso compartido en la red, lo que permitió que el atacante, utilizando la herramienta Responder, interceptara hashes y se hiciera pasar por un dispositivo legítimo dentro de la red interna. Finalmente, se empleó Hashcat para descifrar un hash NTLMv2, aprovechando la información recopilada del tráfico SMB'
-image: '../../../assets/HTB/Noxious/noxiuos-hackthebox.png'
+description: 'Se analizó el tráfico de red con Wireshark, detectando robo de credenciales por abuso del protocolo LLMNR en Windows. Un error tipográfico de la víctima permitió al atacante, con Responder, interceptar hashes y suplantar un dispositivo legítimo. Se usó Hashcat para descifrar un hash NTLMv2, aprovechando el tráfico SMB.'
+image: '../../../assets/HTB/Noxious/noxiuos-banner.png'
 tags: [HackTheBox, BlueTeam, Sherlocks, SOC]
 category: 'WriteUp'
 draft: false 

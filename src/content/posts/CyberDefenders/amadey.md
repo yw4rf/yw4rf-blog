@@ -1,8 +1,8 @@
 ---
 title: Amadey - CyberDefenders
 published: 2025-02-21
-description: 'En este laboratorio asumiremos el rol de un analista de ciberseguridad investigando una alerta del sistema EDR que detectó actividad sospechosa en una workstation Windows, señalando la presencia del troyano Amadey. Este malware, especializado en robo de credenciales y persistencia, opera en memoria, lo que dificulta su detección. En este análisis, usaremos Volatility3 para examinar el volcado de memoria, identificar procesos maliciosos, rastrear conexiones de red y entender el alcance del ataque.'
-image: '../../../assets/CyberDefenders/Amadey/amadey-banner.webp'
+description: 'Asumiremos el rol de analista de ciberseguridad investigando una alerta del sistema EDR sobre actividad sospechosa en una workstation Windows con el troyano Amadey. Este malware roba credenciales y persiste en memoria, dificultando su detección. Usaremos Volatility3 para analizar memoria, detectar procesos maliciosos y evaluar el alcance del ataque.'
+image: '../../../assets/CyberDefenders/Amadey/lab-amadey-banner.png'
 tags: [CyberDefenders, BlueTeam, DFIR, Endpoint Forensics, Memory Dump, Volatility]
 category: 'WriteUp'
 draft: false 
