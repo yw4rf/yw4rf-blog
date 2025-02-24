@@ -3,7 +3,7 @@ title: Crocodile - HackTheBox
 published: 2024-11-20
 description: 'En este writeup resolveremos la máquina Crocodile, explorando vulnerabilidades como Anonymous FTP login allowed en el servicio FTP y un sitio web HTTP con directorios ocultos. Usaremos herramientas clave como Nmap y Gobuster, aplicando técnicas básicas de pentesting en sistemas Linux'
 image: '../../../assets/HTB/Crocodile/crocodile-hackthebox.png'
-tags: [WriteUp, HackTheBox]
+tags: [HackTheBox, RedTeam, Pentesting, HTTP, FTP, Linux]
 category: 'WriteUp'
 draft: false 
 ---

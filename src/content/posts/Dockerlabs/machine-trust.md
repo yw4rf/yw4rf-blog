@@ -3,7 +3,7 @@ title: Trust - DockerLabs
 published: 2024-09-17
 description: 'En esta ocasión, abordaremos la máquina Trust. Encontraremos protocolos como HTTP y SSH, los cuales explotaremos mediante fuerza bruta usando Hydra y haremos escalada de privilegios.'
 image: '../../../assets/DockerLabs/Trust/trust.jpeg'
-tags: [WriteUp, DockerLabs]
+tags: [DockerLabs, RedTeam, Pentesting, HTTP, SSH, Hydra, Linux]
 category: 'WriteUp'
 draft: false 
 ---

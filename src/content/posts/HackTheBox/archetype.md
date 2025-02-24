@@ -3,7 +3,7 @@ title: Archetype - HackTheBox
 published: 2024-11-28
 description: 'En este writeup, se describe la explotación de una máquina Windows a través de servicios expuestos como SMB 445/tcp y MSSQL 1433/tcp. Tras encontrar credenciales en SMB, se accedió al servidor MSSQL y se habilitó xp_cmdshell para ejecutar comandos en el sistema operativo. Se utilizaron herramientas como Impacket (con mssqlclient.py y psexec.py) y Netcat, se estableció una reverse shell y se escalaron privilegios a NT AUTHORITY\SYSTEM, obteniendo control total del sistema.'
 image: '../../../assets/HTB/Archetype/archetype-hackthebox.png'
-tags: [WriteUp, HackTheBox]
+tags: [HackTheBox, ReadTeam, Pentesting, MSSQL, SMB, Impacket, PowerShell, Reverse Shell, Windows]
 category: 'WriteUp'
 draft: false 
 ---

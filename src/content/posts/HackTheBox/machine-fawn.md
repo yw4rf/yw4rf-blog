@@ -3,7 +3,7 @@ title: Fawn - Hack The Box
 published: 2024-09-04
 description: 'En este write-up, usaremos Nmap para identificar puertos abiertos y servicios, enfocándonos en FTP en el puerto 21. Vamos a enumerar el servicio FTP, explotaremos el inicio de sesión anónimo y descargaremos la flag.'
 image: 'https://old-blog-yw4rf.vercel.app/_astro/0-Fawn.C4-iV88g_1C3oOI.webp'
-tags: [WriteUp, HackTheBox]
+tags: [HackTheBox, RedTeam, Pentesting, FTP, Linux]
 category: 'WriteUp'
 draft: false 
 ---

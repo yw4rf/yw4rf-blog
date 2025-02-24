@@ -3,7 +3,7 @@ title: The Penetration Testing Process
 published: 2024-10-07
 description: 'El pentesting, o pruebas de penetración, es una práctica fundamental en ciberseguridad que simula ataques a sistemas y redes para identificar vulnerabilidades. Este post explora las etapas del proceso, las herramientas utilizadas y la importancia de los resultados para mejorar la seguridad de las organizaciones.'
 image: '../../../assets/Ethical-Hacking/PentestingProcess/pentest-process.png'
-tags: [Pentesting, EthicalHacking]
+tags: [Ethical Hacking]
 category: 'Cybersecurity'
 draft: false 
 ---

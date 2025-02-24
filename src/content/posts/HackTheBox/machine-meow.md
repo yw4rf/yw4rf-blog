@@ -3,7 +3,7 @@ title: Meow - Hack The Box
 published: 2024-09-03
 description: 'En este write-up, utilizaremos Nmap para escanear puertos e identificar puertos abiertos y servicios, enfocándonos en Telnet en el puerto 23. Enumeraremos, utilizaremos credenciales débiles y descargaremos la flag'
 image: 'https://old-blog-yw4rf.vercel.app/_astro/meow-6.BpHm5Bkn_2aKIJ.webp'
-tags: [WriteUp, HackTheBox]
+tags: [HackTheBox, RedTeam, Pentesting, Telnet, Linux]
 category: 'WriteUp'
 draft: false 
 ---

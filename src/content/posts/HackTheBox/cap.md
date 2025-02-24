@@ -3,7 +3,7 @@ title: Cap - HackTheBox
 published: 2024-10-20
 description: 'Realizaremos la máquina Cap de la plataforma HackTheBox. Nos encontraremos con varios puertos: 80/HTTP, 21/FTP y 22/SSH. Utilizaremos Tshark para analizar paquetes de archivos .PCAP, Web fuzzing para descubrir directorios o archivos ocultos y escalaremos privilegios mediante la capabilitie cap_setuid.'
 image: '../../../assets/HTB/Cap/cap.png'
-tags: [WriteUp, HackTheBox]
+tags: [HackTheBox, RedTeam, Pentesting, HTTP, FTP, Tshark, Linux]
 category: 'WriteUp'
 draft: false 
 ---
@@ -126,6 +126,6 @@ Al ejecutar el script con **python3.8** nos permite escalar privilegios exitosam
 
 Como vemos, somos **root** y por ende tenemos control total del sistema. Hemos finalizado la máquina. Faltaría encontrar las flags.
 
-!![Cap yw4rf](../../../assets/HTB/Cap/cap-pwnd.png)
+![Cap yw4rf](../../../assets/HTB/Cap/cap-pwnd.png)
 
 <br>

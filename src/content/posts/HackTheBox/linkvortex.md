@@ -3,7 +3,7 @@ title: LinkVortex - HackTheBox
 published: 2024-12-09
 description: 'La máquina LinkVortex se encuentra actualmente activa en la plataforma de HackTheBox. De acuerdo con las políticas de HackTheBox, no puedo compartir el contenido en este momento, ya que podría afectar la experiencia de quienes intentan resolver una máquina activa. Por lo tanto, el contenido permanecerá oculto hasta que la máquina esté retirada.'
 image: '../../../assets/HTB/LinkVortex/linkvortex-banner.png'
-tags: [WriteUp, HackTheBox]
+tags: [HackTheBox, ReadTeam, Pentesting, Active Machine]
 category: 'WriteUp'
 draft: false 
 ---

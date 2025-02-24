@@ -3,7 +3,7 @@ title: Dancing - Hack The Box
 published: 2024-09-05
 description: 'En este write-up, utilizaremos Nmap para escanear puertos e identificar puertos abiertos y servicios, enfocándonos en SMB. Enumeraremos, y descargaremos la flag.'
 image: 'https://old-blog-yw4rf.vercel.app/_astro/dancing-pwnd.C_asCQVS_15UY9B.webp'
-tags: [WriteUp, HackTheBox]
+tags: [HackTheBox, RedTeam, Pentesting, SMB, Linux]
 category: 'WriteUp'
 draft: false 
 ---

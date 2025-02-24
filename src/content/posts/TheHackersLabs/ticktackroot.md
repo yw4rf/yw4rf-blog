@@ -3,7 +3,7 @@ title: TickTackRoot - TheHackersLabs
 published: 2024-10-11
 description: 'Esta vez, abordaremos la máquina TickTackRoot de la plataforma TheHackersLabs. Nos encontraremos con tres puertos abiertos, 21/FTP, 22/SSH y 80/HTTP. Explotaremos la vulnerabilidad FTP Anonymous login y realizaremos fuerza bruta con Hydra al servicio SSH, por último, escalaremos privilegios aprovechando el binario timeout_suid.'
 image: '../../../assets/TheHackersLabs/TickTackRoot/ticktackroot.png'
-tags: [WriteUp, TheHackersLabs]
+tags: [TheHackersLabs, RedTeam, Pentesting, HTTP, FTP, Hydra, SSH, Linux]
 category: 'WriteUp'
 draft: false 
 ---
