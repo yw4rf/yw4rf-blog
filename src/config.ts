@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,
-    src: 'assets/images/100768.gif',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    src: 'assets/images/100724.gif',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
       enable: true,         // Display the credit text of the banner image
@@ -53,26 +53,29 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/avatar.gif',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'Yw4rf',
-  bio: 'Cybersecurity Enthusiast with Hands-on Penetration Testing Experience | CTF Player | Computer Networks Student',
+  bio: 'Aspiring Cybersecurity Professional | Hands-on Pentesting & SOC Labs | Computer Networks & Security Student',
   links: [
     {
-      name: 'Telegram',
-      icon: 'fa6-brands:telegram',
-      url: 'https://t.me/yw4rf',
-    },{
       name: 'Linkedin',
       icon: 'fa6-brands:linkedin',
       url: 'https://linkedin.com/in/yw4rf',
     },{
-      name: 'Twitter',
-      icon: 'fa6-brands:twitter',
-      url: 'https://x.com/yw4rf',
-    },
-    {
       name: 'GitHub',
       icon: 'fa6-brands:github',
       url: 'https://github.com/yw4rf',
-    },
+    },{
+      name: 'Telegram',
+      icon: 'fa6-brands:telegram',
+      url: 'https://t.me/yw4rf',
+    },{
+      name: 'Twitter',
+      icon: 'fa6-brands:twitter',
+      url: 'https://x.com/yw4rf',
+    },{
+      name: 'Threads',
+      icon: 'fa6-brands:threads',
+      url: 'https://www.threads.net/@yw4rf',
+    }
   ],
 }
 
