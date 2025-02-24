@@ -2,7 +2,7 @@
 title: WebStrike - CyberDefenders
 published: 2025-02-16
 description: 'En este laboratorio, se investigó un incidente de seguridad en un servidor web mediante un archivo PCAP. Se detectó la carga no autorizada de un web shell malicioso, ejecución de comandos y exfiltración de datos. Se analizan los métodos del atacante, vulnerabilidades explotadas y técnicas para acceso no autorizado al servidor.'
-image: '../../../assets/CyberDefenders/WebStrike/webstrike-banner.png'
+image: '../../../assets/CyberDefenders/WebStrike/webstrike-banner-lab.png'
 tags: [CyberDefenders, BlueTeam, Network Forensics, SOC, Wireshark, Windows]
 category: 'WriteUp'
 draft: false 
