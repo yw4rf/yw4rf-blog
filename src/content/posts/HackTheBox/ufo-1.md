@@ -2,7 +2,7 @@
 title: UFO-1 - HackTheBox
 published: 2025-01-30
 description: 'En este laboratorio, se investigó al grupo Sandworm Team (APT44), una amenaza avanzada persistente contra infraestructuras críticas. Usando el marco MITRE ATT&CK, se analizaron sus tácticas, técnicas y procedimientos (TTPs), identificando campañas, herramientas y métodos de ataque.'
-image: '../../../assets/HTB/UFO-1/ufo1-banner.png'
+image: '../../../assets/HTB/UFO-1/banner-ufo1-lab.png'
 tags: [WriteUp, HackTheBox, BlueTeam, Sherlocks, Threat Intelligence, Research, APT, TTPs]
 category: 'WriteUp'
 draft: false 

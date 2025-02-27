@@ -2,7 +2,7 @@
 title: PoisonedCredentials - CyberDefenders
 published: 2025-02-17
 description: 'En este laboratorio, se simuló un incidente de seguridad de red relacionado con credenciales envenenadas, donde los atacantes explotaron vulnerabilidades en los protocolos Link-Local Multicast Name Resolution (LLMNR) y NetBIOS Name Service (NBT-NS). El escenario comenzó con una actividad sospechosa detectada por el equipo de seguridad, lo que llevó a un análisis con Wireshark para identificar el ataque. A lo largo del laboratorio, se investigaron aspectos clave del ataque, como la identificación de consultas envenenadas, el seguimiento de la IP del atacante y el análisis de intentos de autenticación SMB.'
-image: '../../../assets/CyberDefenders/PoisonedCredentials/poisoned-credentials-banner.png'
+image: '../../../assets/CyberDefenders/PoisonedCredentials/banner-poisonedcredentials-lab.png'
 tags: [CyberDefenders, BlueTeam, Network Forensics, SOC, Wireshark, LLMNR Poisoning, Windows]
 category: 'WriteUp'
 draft: false 

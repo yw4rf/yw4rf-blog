@@ -53,7 +53,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/avatar.gif',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'Yw4rf',
-  bio: 'Aspiring Cybersecurity Professional | Hands-on Pentesting & SOC Labs | Computer Networks & Security Student',
+  bio: ' Estudiante de Redes Informáticas (UNO) | Blue & Red Team | Pentesting | DFIR | Threat Hunting | SOC | CTF Player',
   links: [
     {
       name: 'Linkedin',
