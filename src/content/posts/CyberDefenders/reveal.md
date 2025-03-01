@@ -4,7 +4,7 @@ published: 2025-02-24
 description: 'El SIEM ha detectado actividad inusual en una estación de trabajo con acceso a datos sensibles, lo que nos ha llevado a recibir un memory dump de la máquina comprometida para investigar el incidente. Utilizaremos Volatility3 para analizar el volcado de memoria y obtener una visión detallada del sistema en el momento del ataque. Nuestro objetivo será identificar procesos maliciosos, rastrear conexiones de red y evaluar la persistencia del atacante.'
 image: '../../../assets/CyberDefenders/Reveal/banner-reveal-lab.png'
 tags: [CyberDefenders, BlueTeam, Endpoint Forensics, DFIR, Memory Dump, Volatility, Windows]
-category: 'WriteUp'
+category: 'WriteUp' 
 draft: false 
 ---
 
