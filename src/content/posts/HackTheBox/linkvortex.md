@@ -20,7 +20,7 @@ OS: Linux
 
 ![LinkVortex Yw4rf](../../../assets/HTB/LinkVortex/linkvortex-2.png)
 
-**[HackTheBox Achievment Link](https://www.hackthebox.com/achievement/machine/2035837/638)**
+**[Verify Achievement](https://www.hackthebox.com/achievement/machine/2035837/638)**
 
 ![LinkVortex Yw4rf](../../../assets/HTB/LinkVortex/linkvortex-hackthebox.png)
 
